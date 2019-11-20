@@ -3,7 +3,7 @@
   <test name="Test">
     <classes>
       <class name="com.qa.TestA"/>
-      <!-- <class name="com.qa.TestB"/> -->
+      <class name="com.qa.TestB"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
