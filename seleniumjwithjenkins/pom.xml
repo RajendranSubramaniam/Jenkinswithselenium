@@ -33,12 +33,12 @@
 				<version>2.19.1</version>
 				<configuration>
 				  <suiteXmlFiles>
-					<suiteXmlFiles>C:\Users\Virun Rajendran\Desktop\mavenelenjenkproject\seleniumjwithjenkins\src\test\java\testng.xml</suiteXmlFiles>
+					<suiteXmlFiles>src\main\resources\testng.xml</suiteXmlFiles>
 					</suiteXmlFiles>
 				</configuration>
 		  </plugin>
 		  
-		  <plugin>
+<!-- 		  <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
 				<executions>
@@ -49,16 +49,16 @@
 				   			</goals>
 				   </execution>
 				</executions>
-		  </plugin>	         
+		  </plugin>	 -->         
 		        
 	      </plugins>
 	      
-	      <resources>
+<!-- 	      <resources>
 	      	<resource>
-	      		<directory>src</directory>
+	      		<directory>src\main\resources\testng.xml</directory>
 	      			<filtering>true</filtering>
 	      	</resource>
-	      </resources>
+	      </resources> -->
 	      
 	      
 	      
